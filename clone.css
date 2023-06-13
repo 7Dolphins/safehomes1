@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: black;}
+li{list-style: none;}
+.black{color: black;}
+
+
+
+
+header{
+    padding: 1% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{display: flex;}
+header nav ul li{padding: 10px 20px; font-weight: 700;}
+header nav ul li:last-child{
+    background-color: rgb(1, 107, 91);
+    border-radius: 10px 10px;
+}
+header nav ul li:last-child a{color: rgb(255, 255, 255);}
+
+
+
+
+main section{
+    text-align: center;
+    margin-bottom: 100px;
+}
+main section div{padding: 30px 0;}
+main section:last-child{margin: auto;}
+main section h2{color:  rgb(2, 133, 113)}
+
+main section #hesitation figure{
+    display: inline-block;
+    width: 293px;
+    text-align: start;
+}
+main section #hesitation figure h3{
+    margin: 15px 0;
+}
+
+main .phone{
+    display: flex;
+    justify-content: center;
+}
+main .phone div{
+    margin: 0 150px;
+    text-align: start;
+}
+main section h4{color:  rgb(2, 133, 113)}
+main .phone h2{font-size: 33px;}
+
+
+
+
+
+footer div:first-child{
+    padding: 2% 20%;
+}
+
+
